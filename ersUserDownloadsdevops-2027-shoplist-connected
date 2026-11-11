@@ -1,0 +1,20 @@
+warning: in the working copy of 'README (2).md', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/README.md b/README (2).md[m
+[1mindex d71bc8a..a1e2554 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README (2).md[m	
+[36m@@ -64,10 +64,10 @@[m [mBrowser → frontend (Nginx :80) → backend (Flask :5000) → postgres (Postgre[m
+ | 1 | מה זה DevOps, מיקרו-סרוויסים והכרת ShopList | [01-devops-intro](lessons/01-devops-intro/) |[m
+ | 2 | Docker: images, containers ו-Dockerfile | [02-docker-basics](lessons/02-docker-basics/) |[m
+ | 3 | רשתות, volumes ו-multi-stage: מושגים, והיכרות עם Compose | [03-docker-compose](lessons/03-docker-compose/) |[m
+[31m-| 4 | רשתות, volumes ו-Docker Compose לעומק: בונים את ShopList | [04-compose-networks-volumes](lessons/04-compose-networks-volumes/) |[m
+[31m-| 5 | Kubernetes: מה זה cluster, ו-cluster מקומי | [05-k8s-cluster](lessons/05-k8s-cluster/) |[m
+[31m-| 6 | Kubernetes: ShopList ב-cluster | [06-k8s-deploy](lessons/06-k8s-deploy/) |[m
+[31m-| 7 | Helm: ShopList באריזה אחת | [07-helm](lessons/07-helm/) |[m
+[32m+[m[32m| 4 | רשתות, volumes ו-Docker Compose לעומק: בונים את ShopList | יעלה בהמשך |[m
+[32m+[m[32m| 5 | Kubernetes: מה זה cluster, ו-cluster מקומי | יעלה בהמשך |[m
+[32m+[m[32m| 6 | Kubernetes: ShopList ב-cluster | יעלה בהמשך |[m
+[32m+[m[32m| 7 | Helm | יעלה בהמשך |[m
+ | 8 | CI/CD: מושגים וכתיבת פייפליין | יעלה בהמשך |[m
+ | 9 | Registry ו-GitHub Actions | יעלה בהמשך |[m
+ | 10 | פרויקט הגמר | יעלה בהמשך |[m
